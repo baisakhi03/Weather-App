@@ -18,14 +18,14 @@
             <h2 class="city">London</h2>
             <div class="detail">
                 <div class="col">
-                    <img src="/images/images/humidity.png" alt="">
+                    <img src="images/images/humidity.png" alt="">
                     <div class="humidity">
                         <p>20% </p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="/images/images/wind.png" alt="">
+                    <img src="images/images/wind.png" alt="">
                     <div class="wind">
                         <p>20kph</p>
                         <p>Wind</p>
@@ -58,15 +58,15 @@
 
             const weatherMain = data.weather[0].main.toLowerCase();
             if (weatherMain === "clouds") {
-                weatherIcon.src = "/images/images/clouds.png";
+                weatherIcon.src = "images/images/clouds.png";
             } else if (weatherMain === "clear") {
-                weatherIcon.src = "/images/images/clear.png";
+                weatherIcon.src = "images/images/clear.png";
             } else if (weatherMain === "rain") {
-                weatherIcon.src = "/images/images/rain.png";
+                weatherIcon.src = "images/images/rain.png";
             } else if (weatherMain === "drizzle") {
-                weatherIcon.src = "/images/images/drizzle.png";
+                weatherIcon.src = "images/images/drizzle.png";
             } else if (weatherMain === "mist") {
-                weatherIcon.src = "/images/images/mist.png";
+                weatherIcon.src = "images/images/mist.png";
             }
             document.querySelector(".weather").style.display = "block";
         }
